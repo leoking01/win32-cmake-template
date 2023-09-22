@@ -10,7 +10,11 @@ enable_testing()
 include(FetchContent)
 fetchcontent_declare(
         googletest
-        URL https://github.com/google/googletest/archive/refs/heads/main.zip
+#        URL https://github.com/google/googletest/archive/refs/heads/main.zip
+ URL
+#        https://github.com/google/googletest.git
+#https://codeload.github.com/google/googletest/zip/refs/heads/main
+https://github.com/google/googletest/archive/refs/tags/v1.14.0.zip
 )
 # Prevent overriding the parent project's compiler/linker settings
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
