@@ -26,3 +26,10 @@ cmake ..
 
 When the cmake command completes there should be a solution file and several project files in the build folder that can
 be opened with Visual Studio or built from the command line using msbuild.
+
+
+
+2023-09-22运行ok。   vs2019x64--qt5.12.12.
+
+
+
